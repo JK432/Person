@@ -1,6 +1,7 @@
 #Create a class Person with atributes Name, age, salalry and a method display() for showing the details. Create two instances of the class and call the method for each instance 
 class Person:
-  def _init_(self,name,age,salary):
+
+  def __init__(self,name,age,salary):
     self.name=name
     self.age=age
     self.salary=salary
